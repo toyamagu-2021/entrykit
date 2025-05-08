@@ -1,6 +1,6 @@
 module github.com/progrium/entrykit
 
-go 1.15
+go 1.16
 
 require (
 	github.com/dustin/go-jsonpointer v0.0.0-20160814072949-ba0abeacc3dc // indirect
