@@ -9,3 +9,5 @@ cmd/prehook
 cmd/render
 cmd/waitgrp
 codep/codep/codep
+# Added by goreleaser init:
+dist/
