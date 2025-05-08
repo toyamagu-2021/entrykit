@@ -15,10 +15,10 @@ jobs:
         with:
           fetch-depth: 0 # Changelog を正しく動作させるために必要
 
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v4
         with:
           go-version-file: go.mod
-          cache: true
+          cache: false
 
       - uses: goreleaser/goreleaser-action@v4
         with:
